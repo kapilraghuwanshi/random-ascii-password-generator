@@ -1,4 +1,7 @@
-export default function randomPasswordGenterator(pwdLength, isUppercase) {
+
+module.exports = { 
+
+ randomPasswordGenterator: function(pwdLength=8, isUppercase=true) {
   const ascii =
     "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
   let password = "";
@@ -6,4 +9,6 @@ export default function randomPasswordGenterator(pwdLength, isUppercase) {
     password += ascii[Math.floor(ascii.length * Math.random())];
   }
   return isUppercase ? password.toUpperCase() : password.toLowerCase();
+}
+
 }
