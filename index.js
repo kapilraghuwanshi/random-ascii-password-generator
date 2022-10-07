@@ -1,5 +1,5 @@
 module.exports = {
-  randomPasswordGenterator: function (pwdLength = 8, isUppercase = true) {
+  randomPasswordGenerator: function (pwdLength = 8, isUppercase = true) {
     const ascii =
       "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
     let password = "";
