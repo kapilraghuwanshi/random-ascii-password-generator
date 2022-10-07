@@ -10,20 +10,25 @@ HOW TO USE
 
 METHODS
 
-randomPasswordGenterator(5, true); 
-output: "LY9\\"
+1) both the args, length and uppercase
+randomPasswordGenterator(10, true);
+Output - "|81SLNDDTN"
 
-randomPasswordGenterator(7, false);
-output: "c0c|k>|"
+1) both the args, length and lowercase
+randomPasswordGenterator(12, false);
+Output - "qmzg^-ryi$+9"
 
-randomPasswordGenterator(); 
-output: "LY9\\"
+1) no args - default 8 length and uppercase
+randomPasswordGenterator();
+Output - "~V?VUUGV"
 
-randomPasswordGenterator(7);
-output: "c0c|k>|"
+1) only password case but have to provide first args as undefined
+randomPasswordGenterator(undefined, false);
+Output - "\l]xa[6n"
 
-randomPasswordGenterator(false);
-output: "c0c|k>|"
+5) only password length
+randomPasswordGenterator(5);
+Output - "Y;KYV"
 
 For live demonstration:
 https://codepen.io/techygeeky/pen/bGWXdbJ?editors=1011
