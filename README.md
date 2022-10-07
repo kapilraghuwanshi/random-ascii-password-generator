@@ -2,32 +2,32 @@
 fastest NPM package/library to generate random and strong password with alphabetical-numerical-ascii characters.
 
 
-HOW TO INSTALL
+### How to install
 npm install `random-ascii-password-generator` --save
 
-HOW TO USE
+### How to use
 `const randomPasswordGenterator = require('random-ascii-password-generator');`
 
-METHODS
+### all possible methods
 
 1) both the args, length and uppercase
-randomPasswordGenterator(10, true);
+`randomPasswordGenterator(10, true);`
 Output - "|81SLNDDTN"
 
-1) both the args, length and lowercase
-randomPasswordGenterator(12, false);
+2) both the args, length and lowercase
+`randomPasswordGenterator(12, false);`
 Output - "qmzg^-ryi$+9"
 
-1) no args - default 8 length and uppercase
-randomPasswordGenterator();
+3) no args - default 8 length and uppercase
+`randomPasswordGenterator();`
 Output - "~V?VUUGV"
 
-1) only password case but have to provide first args as undefined
-randomPasswordGenterator(undefined, false);
+4) only password case but have to provide first args as undefined
+`randomPasswordGenterator(undefined, false);`
 Output - "\l]xa[6n"
 
 5) only password length
-randomPasswordGenterator(5);
+`r`andomPasswordGenterator(5);`
 Output - "Y;KYV"
 
 For live demonstration:
