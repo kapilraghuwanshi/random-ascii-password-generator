@@ -1,6 +1,6 @@
 {
   "name": "random-ascii-password-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM package to create random strong password with alphabetical-numerical-ascii characters",
   "main": "index.js",
   "scripts": {
